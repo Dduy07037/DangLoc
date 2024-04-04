@@ -326,12 +326,11 @@ form .btn{
   box-shadow: 0 3px 20px var(--second);
   cursor: pointer;
   border-radius: 50%;
-  mix-blend-mode: luminosity;
+  mix-blend-mode: normal;
+  animation: profile-animation 8s ease-in-out infinite;
 }
 .about .container .content .image:nth-child(1) img:hover{
-  animation: profile-animation 8s ease-in-out infinite;
   box-shadow: 0 5px 40px var(--second);
-  mix-blend-mode: normal;
 }
 
 @keyframes profile-animation {
