@@ -1,12 +1,11 @@
 // typing text hero
 const typed = new Typed(".typing-text", {
-  strings: ["Front-End Web Developer", "Students of VNU-International School"],
+  strings: ["Architect", "Students of Hanoi University of Civil Engineering."],
   loop: true,
   typeSpeed: 55,
   backSpeed: 25,
   backDelay: 500,
 });
-
 // auto hide navbar click
 $(".click-trigger").click(function () {
   $(".navbar-collapse").collapse("hide");
